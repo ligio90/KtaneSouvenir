@@ -155,7 +155,7 @@ Prefab:
     - target: {fileID: 114273640170527056, guid: 52b9f1e2083908e4c97cbfcd050b0505,
         type: 2}
       propertyPath: Settings
-      value: '{"Language":"ja"}'
+      value: '{"Language":"de"}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52b9f1e2083908e4c97cbfcd050b0505, type: 2}

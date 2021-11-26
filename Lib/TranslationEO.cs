@@ -266,6 +266,11 @@ namespace Souvenir
             [Question.AlgorithmiaPositions] = new TranslationInfo
             {
                 QuestionText = "Which position was the {1} position in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["starting"] = "starting",
+                    ["goal"] = "goal",
+                },
             },
             // What was the color of the colored bulb in {0}?
             // What was the color of the colored bulb in Algorithmia?
@@ -643,6 +648,18 @@ namespace Souvenir
             [Question.BinaryShiftInitialNumber] = new TranslationInfo
             {
                 QuestionText = "What was the {1} initial number in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-middle"] = "top-middle",
+                    ["top-right"] = "top-right",
+                    ["left-middle"] = "left-middle",
+                    ["center"] = "center",
+                    ["right-middle"] = "right-middle",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-middle"] = "bottom-middle",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
             // What number was selected at stage {1} in {0}?
             // What number was selected at stage 0 in Binary Shift?
@@ -829,12 +846,29 @@ namespace Souvenir
             [Question.BoxingNames] = new TranslationInfo
             {
                 QuestionText = "Which {1} appeared on {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["contestant’s first name"] = "contestant’s first name",
+                    ["contestant’s last name"] = "contestant’s last name",
+                    ["substitute’s first name"] = "substitute’s first name",
+                    ["substitute’s last name"] = "substitute’s last name",
+                },
             },
             // What was the {1} of the contestant with strength rating {2} on {0}?
             // What was the first name of the contestant with strength rating 0 on Boxing?
             [Question.BoxingContestantByStrength] = new TranslationInfo
             {
                 QuestionText = "What was the {1} of the contestant with strength rating {2} on {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["first name"] = "first name",
+                    ["0"] = "0",
+                    ["1"] = "1",
+                    ["2"] = "2",
+                    ["last name"] = "last name",
+                    ["substitute’s first name"] = "substitute’s first name",
+                    ["substitute’s last name"] = "substitute’s last name",
+                },
             },
             // What was {1}’s strength rating on {0}?
             // What was Muhammad’s strength rating on Boxing?
@@ -1007,6 +1041,11 @@ namespace Souvenir
             [Question.CaesarCycleWord] = new TranslationInfo
             {
                 QuestionText = "What was the {1} in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["message"] = "message",
+                    ["response"] = "response",
+                },
             },
 
             // Calendar
@@ -1030,12 +1069,26 @@ namespace Souvenir
             [Question.CartineseButtonColors] = new TranslationInfo
             {
                 QuestionText = "What color was the {1} button in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["up"] = "up",
+                    ["right"] = "right",
+                    ["down"] = "down",
+                    ["left"] = "left",
+                },
             },
             // What lyric was played by the {1} button in {0}?
             // What lyric was played by the up button in Cartinese?
             [Question.CartineseLyrics] = new TranslationInfo
             {
                 QuestionText = "What lyric was played by the {1} button in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["up"] = "up",
+                    ["right"] = "right",
+                    ["down"] = "down",
+                    ["left"] = "left",
+                },
             },
 
             // Challenge & Contact
@@ -1052,6 +1105,12 @@ namespace Souvenir
             [Question.CheapCheckoutPaid] = new TranslationInfo
             {
                 QuestionText = "What was the {1}paid amount in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    [""] = "",
+                    ["first "] = "first ",
+                    ["second "] = "second ",
+                },
             },
 
             // Cheep Checkout
@@ -1060,6 +1119,11 @@ namespace Souvenir
             [Question.CheepCheckoutBirds] = new TranslationInfo
             {
                 QuestionText = "Which bird {1} present in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["was"] = "was",
+                    ["was not"] = "was not",
+                },
             },
 
             // Chess
@@ -1162,6 +1226,13 @@ namespace Souvenir
             [Question.ColorDecodingIndicatorPattern] = new TranslationInfo
             {
                 QuestionText = "What was the {1}-stage indicator pattern in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["Checkered"] = "Checkered",
+                    ["Horizontal"] = "Horizontal",
+                    ["Vertical"] = "Vertical",
+                    ["Solid"] = "Solid",
+                },
             },
             // Which color {1} in the {2}-stage indicator pattern in {0}?
             // Which color appeared in the first-stage indicator pattern in Color Decoding?
@@ -1201,12 +1272,26 @@ namespace Souvenir
             [Question.ColoredKeysKeyColor] = new TranslationInfo
             {
                 QuestionText = "What was the color of the {1} key in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-right"] = "top-right",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
             // What letter was on the {1} key in {0}?
             // What letter was on the top-left key in Colored Keys?
             [Question.ColoredKeysKeyLetter] = new TranslationInfo
             {
                 QuestionText = "What letter was on the {1} key in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-right"] = "top-right",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
 
             // Colored Squares
@@ -1285,6 +1370,11 @@ namespace Souvenir
                     ["White"] = "White",
                     ["Yellow"] = "Yellow",
                 },
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["was"] = "was",
+                    ["was not"] = "was not",
+                },
             },
             // How many buttons were {1} in {0}?
             // How many buttons were red in Colors Maximization?
@@ -1343,6 +1433,13 @@ namespace Souvenir
                     ["blue"] = "blue",
                     ["yellow"] = "yellow",
                 },
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-right"] = "top-right",
+                    ["bottom-right"] = "bottom-right",
+                    ["bottom-left"] = "bottom-left",
+                },
             },
             // How many corners in {0} were {1}?
             // How many corners in Corners were red?
@@ -1395,6 +1492,11 @@ namespace Souvenir
             [Question.CrypticCycleWord] = new TranslationInfo
             {
                 QuestionText = "What was the {1} in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["message"] = "message",
+                    ["response"] = "response",
+                },
             },
 
             // Cryptic Keypad
@@ -1403,6 +1505,13 @@ namespace Souvenir
             [Question.CrypticKeypadLabels] = new TranslationInfo
             {
                 QuestionText = "What was the label of the {1} key in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-right"] = "top-right",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
             // Which cardinal direction was the {1} key rotated to in {0}?
             // Which cardinal direction was the top-left key rotated to in Cryptic Keypad?
@@ -1416,6 +1525,13 @@ namespace Souvenir
                     ["South"] = "South",
                     ["West"] = "West",
                 },
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-right"] = "top-right",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
 
             // The Cube
@@ -1424,6 +1540,15 @@ namespace Souvenir
             [Question.CubeRotations] = new TranslationInfo
             {
                 QuestionText = "What was the {1} cube rotation in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["rotate cw"] = "rotate cw",
+                    ["tip left"] = "tip left",
+                    ["tip backwards"] = "tip backwards",
+                    ["rotate ccw"] = "rotate ccw",
+                    ["tip right"] = "tip right",
+                    ["tip forwards"] = "tip forwards",
+                },
             },
 
             // The Cyan Button
@@ -1432,6 +1557,15 @@ namespace Souvenir
             [Question.CyanButtonPositions] = new TranslationInfo
             {
                 QuestionText = "Where was the button at the {1} stage in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["top left"] = "top left",
+                    ["top middle"] = "top middle",
+                    ["top right"] = "top right",
+                    ["bottom left"] = "bottom left",
+                    ["bottom middle"] = "bottom middle",
+                    ["bottom right"] = "bottom right",
+                },
             },
 
             // DACH Maze
@@ -1440,6 +1574,62 @@ namespace Souvenir
             [Question.DACHMazeOrigin] = new TranslationInfo
             {
                 QuestionText = "Which region did you depart from in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["Burgenland, A"] = "Burgenland, A",
+                    ["Carinthia, A"] = "Carinthia, A",
+                    ["Lower Austria, A"] = "Lower Austria, A",
+                    ["North Tyrol, A"] = "North Tyrol, A",
+                    ["Upper Austria, A"] = "Upper Austria, A",
+                    ["East Tyrol, A"] = "East Tyrol, A",
+                    ["Salzburg, A"] = "Salzburg, A",
+                    ["Styria, A"] = "Styria, A",
+                    ["Vorarlberg, A"] = "Vorarlberg, A",
+                    ["Vienna, A"] = "Vienna, A",
+                    ["Aargau, CH"] = "Aargau, CH",
+                    ["Appenzell Inner Rhodes, CH"] = "Appenzell Inner Rhodes, CH",
+                    ["Appenzell Outer Rhodes, CH"] = "Appenzell Outer Rhodes, CH",
+                    ["Basel Country, CH"] = "Basel Country, CH",
+                    ["Bern, CH"] = "Bern, CH",
+                    ["Basel City, CH"] = "Basel City, CH",
+                    ["Fribourg, CH"] = "Fribourg, CH",
+                    ["Geneva, CH"] = "Geneva, CH",
+                    ["Glarus, CH"] = "Glarus, CH",
+                    ["Grisons, CH"] = "Grisons, CH",
+                    ["Jura, CH"] = "Jura, CH",
+                    ["Luzern, CH"] = "Luzern, CH",
+                    ["Nidwalden, CH"] = "Nidwalden, CH",
+                    ["Neuchâtel, CH"] = "Neuchâtel, CH",
+                    ["Obwalden, CH"] = "Obwalden, CH",
+                    ["Schaffhausen, CH"] = "Schaffhausen, CH",
+                    ["St. Gallen, CH"] = "St. Gallen, CH",
+                    ["Solothurn, CH"] = "Solothurn, CH",
+                    ["Schwyz, CH"] = "Schwyz, CH",
+                    ["Thurgau, CH"] = "Thurgau, CH",
+                    ["Ticino, CH"] = "Ticino, CH",
+                    ["Uri, CH"] = "Uri, CH",
+                    ["Vaud, CH"] = "Vaud, CH",
+                    ["Valais, CH"] = "Valais, CH",
+                    ["Zug, CH"] = "Zug, CH",
+                    ["Zürich, CH"] = "Zürich, CH",
+                    ["Brandenburg, D"] = "Brandenburg, D",
+                    ["Berlin, D"] = "Berlin, D",
+                    ["Baden-Württemberg, D"] = "Baden-Württemberg, D",
+                    ["Bavaria, D"] = "Bavaria, D",
+                    ["Bremen, D"] = "Bremen, D",
+                    ["Hesse, D"] = "Hesse, D",
+                    ["Hamburg, D"] = "Hamburg, D",
+                    ["Mecklenburg-Vorpommern, D"] = "Mecklenburg-Vorpommern, D",
+                    ["Lower Saxony, D"] = "Lower Saxony, D",
+                    ["North Rhine-Westphalia, D"] = "North Rhine-Westphalia, D",
+                    ["Rhineland-Palatinate, D"] = "Rhineland-Palatinate, D",
+                    ["Schleswig-Holstein, D"] = "Schleswig-Holstein, D",
+                    ["Saarland, D"] = "Saarland, D",
+                    ["Saxony, D"] = "Saxony, D",
+                    ["Saxony-Anhalt, D"] = "Saxony-Anhalt, D",
+                    ["Thuringia, D"] = "Thuringia, D",
+                    ["Liechtenstein"] = "Liechtenstein",
+                },
             },
 
             // Deaf Alley
@@ -1456,6 +1646,16 @@ namespace Souvenir
             [Question.DeckOfManyThingsFirstCard] = new TranslationInfo
             {
                 QuestionText = "What deck did the first card of {0} belong to?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["Standard"] = "Standard",
+                    ["Metropolitan"] = "Metropolitan",
+                    ["Maritime"] = "Maritime",
+                    ["Arctic"] = "Arctic",
+                    ["Tropical"] = "Tropical",
+                    ["Oasis"] = "Oasis",
+                    ["Celestial"] = "Celestial",
+                },
             },
 
             // Decolored Squares
@@ -1535,6 +1735,17 @@ namespace Souvenir
             [Question.DivisibleNumbersAnswers] = new TranslationInfo
             {
                 QuestionText = "What were the correct button presses in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["Nay, Nay, Nay"] = "Nay, Nay, Nay",
+                    ["Nay, Nay, Yea"] = "Nay, Nay, Yea",
+                    ["Nay, Yea, Nay"] = "Nay, Yea, Nay",
+                    ["Nay, Yea, Yea"] = "Nay, Yea, Yea",
+                    ["Yea, Nay, Nay"] = "Yea, Nay, Nay",
+                    ["Yea, Nay, Yea"] = "Yea, Nay, Yea",
+                    ["Yea, Yea, Nay"] = "Yea, Yea, Nay",
+                    ["Yea, Yea, Yea"] = "Yea, Yea, Yea",
+                },
             },
             // What was the {1} stage’s number in {0}?
             // What was the first stage’s number in Divisible Numbers?
@@ -1565,6 +1776,11 @@ namespace Souvenir
             [Question.DoubleDigitsDisplays] = new TranslationInfo
             {
                 QuestionText = "What was the digit on the {1} display in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["left"] = "left",
+                    ["right"] = "right",
+                },
             },
 
             // Double-Oh
@@ -1603,6 +1819,11 @@ namespace Souvenir
             [Question.DumbWaitersPlayerAvailable] = new TranslationInfo
             {
                 QuestionText = "Which player {1} present in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["was"] = "was",
+                    ["was not"] = "was not",
+                },
             },
 
             // eeB gnillepS
@@ -1675,6 +1896,11 @@ namespace Souvenir
             [Question.EncryptedMazeSymbols] = new TranslationInfo
             {
                 QuestionText = "Which symbol on {0} was spinning {1}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["clockwise"] = "clockwise",
+                    ["counter-clockwise"] = "counter-clockwise",
+                },
             },
 
             // Encrypted Morse
@@ -1683,6 +1909,11 @@ namespace Souvenir
             [Question.EncryptedMorseCallResponse] = new TranslationInfo
             {
                 QuestionText = "What was the {1} on {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["received call"] = "received call",
+                    ["sent response"] = "sent response",
+                },
             },
 
             // Encryption Bingo
@@ -1895,6 +2126,11 @@ namespace Souvenir
             [Question.FlashingArrowsReferredArrow] = new TranslationInfo
             {
                 QuestionText = "What color flashed {1} black on the relevant arrow in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["before"] = "before",
+                    ["after"] = "after",
+                },
             },
 
             // Flashing Lights
@@ -1943,6 +2179,18 @@ namespace Souvenir
             [Question.ForgetMeInitialState] = new TranslationInfo
             {
                 QuestionText = "What number was in the {1} position of the initial puzzle in {0}?",
+                FormatArgs = new Dictionary<string, string>
+                {
+                    ["top-left"] = "top-left",
+                    ["top-middle"] = "top-middle",
+                    ["top-right"] = "top-right",
+                    ["middle-left"] = "middle-left",
+                    ["center"] = "center",
+                    ["middle-right"] = "middle-right",
+                    ["bottom-left"] = "bottom-left",
+                    ["bottom-middle"] = "bottom-middle",
+                    ["bottom-right"] = "bottom-right",
+                },
             },
 
             // Forget’s Ultimate Showdown
@@ -2037,6 +2285,16 @@ namespace Souvenir
             [Question.FreeParkingToken] = new TranslationInfo
             {
                 QuestionText = "What was the player token in {0}?",
+                Answers = new Dictionary<string, string>
+                {
+                    ["Dog"] = "Dog",
+                    ["Wheelbarrow"] = "Wheelbarrow",
+                    ["Cat"] = "Cat",
+                    ["Iron"] = "Iron",
+                    ["Top Hat"] = "Top Hat",
+                    ["Car"] = "Car",
+                    ["Battleship"] = "Battleship",
+                },
             },
 
             // Functions

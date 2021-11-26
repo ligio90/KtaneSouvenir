@@ -73,8 +73,10 @@ crashlytics-build.properties
 Lib/obj/
 Lib/bin/
 Lib/.vs/
+Lib/.idea/
 Lib/packages/
 Tr/obj/
 Tr/bin/
 Tr/.vs/
+Tr/.idea/
 Tr/packages/
